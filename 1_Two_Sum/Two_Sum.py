@@ -16,7 +16,3 @@ class Solution(object):
             else:
                 endIndex -= 1
         return None
-
-sol = Solution()
-nums  = [2,3,7,11]
-print(sol.twoSum(nums,13))

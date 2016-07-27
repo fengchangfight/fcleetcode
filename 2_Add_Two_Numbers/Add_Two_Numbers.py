@@ -1,11 +1,3 @@
-#!/usr/bin/python
-
-# Definition for singly-linked list.
-class ListNode(object):
-     def __init__(self, x):
-         self.val = x
-         self.next = None
-
 class Solution(object):
     def addTwoNumbers(self, l1, l2):
         """
@@ -47,19 +39,3 @@ class Solution(object):
         if(overflowflag):
             tail.next = ListNode(overflowvalue)
         return result
-
-sol = Solution()
-l1 = ListNode(2)
-l1.next = ListNode(4)
-l1.next.next = ListNode(3)
-l1.next.next.next = ListNode(6)
-
-l2 = ListNode(5)
-l2.next = ListNode(6)
-l2.next.next = ListNode(4)
-
-result = sol.addTwoNumbers(l1,l2)
-head = result
-while(head!=None):
-    print (head.val)
-    head = head.next

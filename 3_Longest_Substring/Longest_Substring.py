@@ -27,6 +27,3 @@ class Solution(object):
                     k+=1
             i+=1
         return len(result)
-
-sol = Solution()
-print(sol.lengthOfLongestSubstring("c"))

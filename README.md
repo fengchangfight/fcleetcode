@@ -1,2 +1,2 @@
 # fcleetcode
-my leetcode
+my algorithm written with python

@@ -30,7 +30,8 @@ class Solution(object):
         return s[left+1:right]
 
 str = 'aadsggsdyi'
+str2 = 'abad'
 sol = Solution()
 
-print(sol.longestPalindrome(str))
+print(sol.longestPalindrome(str2))
 
